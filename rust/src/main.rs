@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    println!("{}", rust_everywhere::reverse("Hello, world!"));
 }
