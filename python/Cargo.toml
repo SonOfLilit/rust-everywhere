@@ -1,12 +1,13 @@
 [package]
-name = "python"
+name = "rust-everywhere-python"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "python"
+name = "rust_everywhere_python"
 crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = { version = "0.16.5", features = ["extension-module"] }
+rust-everywhere = { path = "../" }
