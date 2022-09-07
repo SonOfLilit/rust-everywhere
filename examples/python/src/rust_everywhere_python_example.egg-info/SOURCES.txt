@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/rust_everywhere_python_example.egg-info/PKG-INFO
+src/rust_everywhere_python_example.egg-info/SOURCES.txt
+src/rust_everywhere_python_example.egg-info/dependency_links.txt
+src/rust_everywhere_python_example.egg-info/requires.txt
+src/rust_everywhere_python_example.egg-info/top_level.txt
+src/symmetry/__init__.py

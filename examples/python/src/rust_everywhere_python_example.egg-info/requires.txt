@@ -1,0 +1,4 @@
+rust_everywhere@ git+https://github.com/SonOfLilit/rust-everywhere@main#subdirectory=python
+
+[dev]
+pytest

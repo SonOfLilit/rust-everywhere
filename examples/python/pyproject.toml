@@ -1,0 +1,22 @@
+[project]
+name = "rust_everywhere_python_example"
+version = "0.1.0"
+authors = [
+    { name = "Aur Saraf", email = "aur@sarafconsulting.com" }
+]
+dependencies = [
+    "rust_everywhere @ git+https://github.com/SonOfLilit/rust-everywhere@main#subdirectory=python"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+include = ["symmetry"]  # package names should match these glob patterns (["*"] by default)
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
